@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name "GIMBAL")(type "KiCad")(uri "${KIPRJMOD}/GIMBAL.pretty")(options "")(descr ""))
+  (lib (name "DRV8846RGET")(type "KiCad")(uri "C:/Users/retro/Downloads/DRV8846RGET.pretty")(options "")(descr ""))
+  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.pretty")(options "")(descr ""))
 )
