@@ -1802,7 +1802,6 @@
     )
   )
 
-
   (junction (at 160.02 260.35) (diameter 0) (color 0 0 0 0)
     (uuid 0ca408c3-eae1-455f-b8d8-3ed4b220e554)
   )
@@ -3506,7 +3505,7 @@
   (symbol (lib_id "Device:LED") (at 77.47 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 668de95b-5ac6-43e3-9997-9750d45aadc1)
-    (property "Reference" "D5" (id 0) (at 81.28 114.6174 90)
+    (property "Reference" "D3" (id 0) (at 81.28 114.6174 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 81.28 117.1574 90)
@@ -3598,7 +3597,7 @@
   (symbol (lib_id "Device:R_US") (at 393.7 90.17 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6deb4374-0d6e-4556-88ed-01064edb6f4b)
-    (property "Reference" "R10" (id 0) (at 393.7 92.71 90))
+    (property "Reference" "R6" (id 0) (at 393.7 92.71 90))
     (property "Value" "500m" (id 1) (at 393.7 95.25 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 393.954 89.154 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -5026,7 +5025,7 @@
       (reference "D2") (unit 1) (value "DIODE") (footprint "Diode_SMD:D_SMC")
     )
     (path "/668de95b-5ac6-43e3-9997-9750d45aadc1"
-      (reference "D5") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/46c8c91f-27ea-4db3-8ff9-8a8bda90287a"
       (reference "J1") (unit 1) (value "XT60-M") (footprint "GIMBAL:AMASS_XT60-M")
@@ -5064,6 +5063,9 @@
     (path "/83c8872a-4dca-4cf2-91c2-01bb12acd4e2"
       (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/6deb4374-0d6e-4556-88ed-01064edb6f4b"
+      (reference "R6") (unit 1) (value "500m") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/0bb95235-3024-483f-86a5-45f3fad29f52"
       (reference "R7") (unit 1) (value "500m") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -5072,9 +5074,6 @@
     )
     (path "/e38bde47-caff-48fd-b347-a85ad5672f31"
       (reference "R9") (unit 1) (value "500m") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/6deb4374-0d6e-4556-88ed-01064edb6f4b"
-      (reference "R10") (unit 1) (value "500m") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e7ff2abd-f6da-4a2c-a822-bb8a1844752a"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2")
